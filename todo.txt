@@ -1,6 +1,11 @@
 - create sample to show alert with the tab title, for a start
+- decide on tech stack to use (asp? typescript?)
 separate modules:
 - module which, given two files shows their diff
 - grabbing the two files via artifactory (keep user/pass in options? locally?)
 - parsing page, show diff per request for each dvc file diff in PR
     for example, when the dvc change is selected, cliking the extension action button shows the actual diff; otherwise error/message
+    - how about big files? try to reuse something existing for diff
+- see https://www.diffchecker.com/text-compare/
+- can the chromium extension open a sidebar-like part where based on selection the diff is shown?
+- extend tool to grab the dvc files frmo custom sources (curl?)

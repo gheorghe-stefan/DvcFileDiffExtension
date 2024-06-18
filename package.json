@@ -1,0 +1,12 @@
+{
+  "name": "DvcFileDiffExtension",
+  "version": "1.0.1",
+  "description": "Shows the difference between two DVC files, grabbing their content from artifactory.",
+  "main": "background.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
