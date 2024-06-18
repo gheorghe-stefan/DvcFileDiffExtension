@@ -1,0 +1,6 @@
+- create sample to show alert with the tab title, for a start
+separate modules:
+- module which, given two files shows their diff
+- grabbing the two files via artifactory (keep user/pass in options? locally?)
+- parsing page, show diff per request for each dvc file diff in PR
+    for example, when the dvc change is selected, cliking the extension action button shows the actual diff; otherwise error/message
