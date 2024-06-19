@@ -1,8 +1,8 @@
 {
   "name": "DvcFileDiffExtension",
   "version": "1.0.1",
-  "description": "Shows the difference between two DVC files, grabbing their content from artifactory.",
-  "main": "index.js",
+  "description": "Shows the difference between two DVC files, grabbing the original content from a source.",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode production --watch"

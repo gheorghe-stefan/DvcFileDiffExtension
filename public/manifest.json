@@ -1,7 +1,7 @@
 {
     "name": "DvcFileDiffExtension",
-    "description": "Shows the difference between two DVC files, grabbing their content from artifactory.",
-    "version": "1.0.0",
+    "description": "Shows the difference between two DVC files, grabbing the original content from a source.",
+    "version": "1.0.2",
     "manifest_version": 3,
     "icons": {
         "16": "/images/logo-16x16.png",
