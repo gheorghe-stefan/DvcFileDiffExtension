@@ -9,3 +9,5 @@ separate modules:
 - see https://www.diffchecker.com/text-compare/
 - can the chromium extension open a sidebar-like part where based on selection the diff is shown?
 - extend tool to grab the dvc files frmo custom sources (curl?)
+- look for `<div id="diff-` for the diffs of files, select ones with filename ending in .dvc
+- inject button in this diff
